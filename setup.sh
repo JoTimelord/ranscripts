@@ -21,3 +21,7 @@ export LD_LIBRARY_PATH=$DIR:$LD_LIBRARY_PATH
 export PYTHONPATH="$DIR:$PYTHONPATH"
 export PATH=$DIR:$PATH
 export LD_LIBRARY_PATH=$PWD/NanoTools/NanoCORE:$LD_LIBRARY_PATH
+
+PATH=$(printf %s "$PATH" \
+     | awk -vRS=: -vORS= '!a[$0]++ {if (NR>1) printf(":"); printf("%s", $0) }' )
+
