@@ -24,12 +24,12 @@ def nevents(dirname):
         for file in files:
             if file.endswith(".root"):
                 name = os.path.join(root, file)
-                print (name)
+                # print (name)
                 fi = ROOT.TFile.Open(name, "READ")
                 tree = fi.Get("Events")
-                print (tree.GetEntries())
+                # print (tree.GetEntries())
                 nevents += tree.GetEntries()
-    print (nevents)
+    # print (nevents)
     return nevents
 
 
@@ -42,9 +42,9 @@ if __name__ == "__main__":
 
 # Read arguments from command line
     args = parser.parse_args()
-    #number1 = nevents(args.file)
+    number1 = nevents(args.file)
     number2 = sumGenWeights(args.file)
-    #print ("The unweighted event number is ", number1)
+    print ("The unweighted event number is ", number1)
     print ("The summed generator weight is ", number2)
 
 

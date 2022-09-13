@@ -9,7 +9,7 @@ alias cmssw1134='export SCRAM_ARCH=slc7_amd64_gcc900; export CMSSW_VERSION=CMSSW
 alias cmssw1220='export SCRAM_ARCH=slc7_amd64_gcc900; export CMSSW_VERSION=CMSSW_12_2_0'
 alias cmssw1221prev4='export SCRAM_ARCH=slc7_amd64_gcc900; export CMSSW_VERSION=CMSSW_12_1_0_prev4_ROOT624'
 
-cmssw1029
+cmssw1220
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 cd /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/$CMSSW_VERSION/src
 eval `scramv1 runtime -sh`

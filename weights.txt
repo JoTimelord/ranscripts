@@ -1,20 +1,30 @@
 DYJETSbkg
+The unweighted event number is  587210
 The summed generator weight is  578997697.0
 VBSOSWWH_C2V_3
+The unweighted event number is  645745
 The summed generator weight is  3545.7063731017006
 VBSOSWWH_C2V_4
+The unweighted event number is  468561
 The summed generator weight is  16502.059841742248
 VBSWZH_C2V_3
+The unweighted event number is  645500
 The summed generator weight is  2307.0621885715
 VBSWZH_C2V_4
+The unweighted event number is  376452
 The summed generator weight is  10596.1948279293
 VBSZZH_C2V_3
+The unweighted event number is  641998
 The summed generator weight is  1896.1943012967502
 VBSZZH_C2V_4
+The unweighted event number is  271390
 The summed generator weight is  9355.140123194902
 WWdilep
+The unweighted event number is  206966
 The summed generator weight is  255086810.18760002
 WWinclusive
+The unweighted event number is  356990
 The summed generator weight is  62993506.95226878
 ttdilep
+The unweighted event number is  14825497
 The summed generator weight is  23998062725.324406
