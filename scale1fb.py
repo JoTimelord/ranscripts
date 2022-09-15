@@ -44,7 +44,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     number1 = nevents(args.file)
     number2 = sumGenWeights(args.file)
-    print ("The unweighted event number is ", number1)
-    print ("The summed generator weight is ", number2)
+    print (number2)
 
 
